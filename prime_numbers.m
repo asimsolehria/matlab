@@ -13,7 +13,7 @@ for i=lowerLimit:upperLimt
             isPrime=true;
         end
     end
-    if isPrime==true
+    if isPrime==true && i~=1
         counter=counter+1;
         disp(i);
     end
