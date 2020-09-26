@@ -18,4 +18,6 @@ for i=lowerLimit:upperLimt
         disp(i);
     end
 end
-message=[num2str(counter)' Prime numbers were found within the given range!']
+message=[num2str(counter)' Prime numbers were found within the given range!'];
+
+disp(message)
